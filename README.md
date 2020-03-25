@@ -1,5 +1,5 @@
 #EjercicioPythonDiarioParte3 (http://www.pythondiario.com/2013/06/ejercicios-en-python-parte-3.html) >
-      > Juego Marter Mind  
+      # Juego Marter Mind  
       Ejercicio cálculo capital con intereses   
       Juego Rima de palabras
       
