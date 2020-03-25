@@ -1,6 +1,16 @@
+#EjercicioPythonDiarioPaquetes
+
+    Parte 3 http://www.pythondiario.com/2013/06/ejercicios-en-python-parte-3.html
+        JuegoReinoDragón
+        Juego Master Mind
+        Ejercicio cálculo capital con intereses
+        Juego Rima de palabras)
+    
+    Parte 4 http://www.pythondiario.com/2014/04/ejercicios-en-python-parte-4.html
+
 #EjercicioPythonDiarioParte3 (http://www.pythondiario.com/2013/06/ejercicios-en-python-parte-3.html)
 
-    Juego Marter Mind
+    Juego Master Mind
     Ejercicio cálculo capital con intereses
     Juego Rima de palabras)  
 
