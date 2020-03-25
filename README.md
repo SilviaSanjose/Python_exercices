@@ -7,6 +7,8 @@
         Juego Rima de palabras)
     
     Parte 4 http://www.pythondiario.com/2014/04/ejercicios-en-python-parte-4.html
+        Sorteo descuento con bolas
+        Alquiler Películas
 
 #EjercicioPythonDiarioParte3 (http://www.pythondiario.com/2013/06/ejercicios-en-python-parte-3.html)
 
