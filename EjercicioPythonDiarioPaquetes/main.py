@@ -2,7 +2,8 @@
 INDICE DE TODOS LOS EJERCICIOS
 '''
 
-from juegos import reinodelDragon, capitalEjer4, rimasEjer3, MasterMindEjer2
+from juegos import reinodelDragon, capitalEjer4, rimasEjer3, MasterMindEjer2,\
+    sorteoBolas
 
 print("""LISTA DE EJERCICIOS (pythondiario.com)
     Parte 3: 
@@ -10,6 +11,9 @@ print("""LISTA DE EJERCICIOS (pythondiario.com)
         2. Master Mind
         3. Rima de palabras
         4. Capital + intereses
+    Parte 4: 
+        1. Sorteo bolas descuento
+    
     """)
 
 ejercicio = int(input("¿Qué ejercicio quieres ver? "))
@@ -22,3 +26,5 @@ elif ejercicio ==3:
     rimasEjer3.rimarPalabras()
 elif ejercicio == 4:
     capitalEjer4.calcularCapital()
+elif ejercicio ==5:
+    sorteoBolas.sorteoBolasDescuento()
