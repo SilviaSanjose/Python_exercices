@@ -12,7 +12,7 @@ print("""LISTA DE EJERCICIOS (pythondiario.com)
         3. Rima de palabras
         4. Capital + intereses
     Parte 4: 
-        1. Sorteo bolas descuento
+        5. Sorteo bolas descuento
     
     """)
 
