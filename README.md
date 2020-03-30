@@ -18,6 +18,7 @@
     Datos Simples
     Condicionales
     Bucles
+    Listas y Tuplas
     Ficheros	   
 
 #Ventana Juego Diferencias
