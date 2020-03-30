@@ -3,7 +3,7 @@ INDICE DE TODOS LOS EJERCICIOS
 '''
 
 from juegos import reinodelDragon, capitalEjer4, rimasEjer3, MasterMindEjer2,\
-    sorteoBolas, alquilerPeliculas
+    sorteoBolas, alquilerPeliculas, productosCompra
 
 print("""LISTA DE EJERCICIOS (pythondiario.com)
     Parte 3: 
@@ -13,7 +13,7 @@ print("""LISTA DE EJERCICIOS (pythondiario.com)
         4. Capital + intereses
     Parte 4: 
         5. Sorteo bolas descuento
-        6.
+        6. Productos Compra
         7. Alquiler de Películas
     
     """)
@@ -31,6 +31,6 @@ elif ejercicio == 4:
 elif ejercicio ==5:
     sorteoBolas.sorteoBolasDescuento()
 elif ejercicio ==6:
-    pass
+    productosCompra.empezarproductosCompra()
 elif ejercicio ==7:
     alquilerPeliculas.alquilarpelis()
