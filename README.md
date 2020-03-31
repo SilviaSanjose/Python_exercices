@@ -21,6 +21,10 @@
     Listas y Tuplas
     Ficheros	   
 
+#Recetas PyQt5:
+
+    Recetas PyQt5_Del_6_al_10
+    
 #Ventana Juego Diferencias
 
 #Ejercicio lista invitados fiesta
