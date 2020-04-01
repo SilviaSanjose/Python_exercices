@@ -27,6 +27,8 @@
     Receta 12 Copy_Paste
     Receta 13 Calculadora
     Receta 14 QSpinBox Ventas
+    Receta 15 QSlider Niveles Salud
+    Receta del 16 al 19 QListWidget. Peluquería
     
 #Ventana Juego Diferencias
 
