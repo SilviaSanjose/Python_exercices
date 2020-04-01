@@ -24,6 +24,9 @@
 #Recetas PyQt5:
 
     Recetas PyQt5_Del_6_al_10
+    Receta 12 Copy_Paste
+    Receta 13 Calculadora
+    Receta 14 QSpinBox Ventas
     
 #Ventana Juego Diferencias
 
