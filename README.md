@@ -10,7 +10,7 @@
     
     Parte 4 http://www.pythondiario.com/2014/04/ejercicios-en-python-parte-4.html
         Sorteo descuento con bolas
-        Pproductos compra
+        Productos compra
         Alquiler Películas
 
 #EjerciciosAlf /http://aprendeconalf.es/python/ejercicios/) 
