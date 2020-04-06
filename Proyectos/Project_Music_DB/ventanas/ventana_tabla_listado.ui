@@ -14,6 +14,9 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(255, 235, 235, 206), stop:0.258706 rgba(255, 188, 188, 80), stop:0.425 rgba(255, 132, 132, 156), stop:0.44 rgba(252, 128, 128, 80), stop:0.507463 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));</string>
+   </property>
    <widget class="QLabel" name="lbl_listado">
     <property name="geometry">
      <rect>
@@ -36,11 +39,14 @@
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>20</x>
       <y>130</y>
-      <width>741</width>
+      <width>761</width>
       <height>361</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
     <attribute name="horizontalHeaderVisible">
      <bool>true</bool>

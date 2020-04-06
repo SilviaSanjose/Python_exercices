@@ -14,6 +14,7 @@ class Ui_list_canciones(object):
     def setupUi(self, list_canciones):
         list_canciones.setObjectName("list_canciones")
         list_canciones.resize(800, 630)
+        list_canciones.setStyleSheet("background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(255, 235, 235, 206), stop:0.258706 rgba(255, 188, 188, 80), stop:0.425 rgba(255, 132, 132, 156), stop:0.44 rgba(252, 128, 128, 80), stop:0.507463 rgba(255, 162, 162, 80), stop:1 rgba(255, 255, 255, 0));")
         self.centralwidget = QtWidgets.QWidget(list_canciones)
         self.centralwidget.setStyleSheet("")
         self.centralwidget.setObjectName("centralwidget")
