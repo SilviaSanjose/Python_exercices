@@ -29,6 +29,12 @@
     Receta 14 QSpinBox Ventas
     Receta 15 QSlider Niveles Salud
     Receta del 16 al 19 QListWidget. Peluquería
+    Receta 20 y 21 QComboBox
+    Receta 22 ProgressBar
+    Receta 23 y 24 QLCDNumber Numeros y horas
+    Receta 25 QCalendar
+    Receta 26 QCalendar para Reservas
+    Receta 27 QtableWidget
     
 #Ventana Juego Diferencias
 
