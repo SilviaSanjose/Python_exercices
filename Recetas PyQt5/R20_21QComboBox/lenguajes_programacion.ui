@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Lenguajes_programacion_Dialog</class>
+ <widget class="QDialog" name="Lenguajes_programacion_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>654</width>
+    <height>439</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Lenguajes de Programación y Fuentes</string>
+  </property>
+  <widget class="QComboBox" name="cbx_lenguajes">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>40</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Python</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>JS</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PHP</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Java</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="lbl_seleccionar">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>241</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Seleccione un lenguaje de programación</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_eleccion">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>100</y>
+     <width>551</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_seleccion_fuente">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Seleccione la fuente: </string>
+   </property>
+  </widget>
+  <widget class="QFontComboBox" name="cbx_fuentes">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>190</y>
+     <width>281</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_editor_texto">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>270</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Editor de Texto:</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="txt_editor">
+   <property name="geometry">
+    <rect>
+     <x>193</x>
+     <y>270</y>
+     <width>281</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
