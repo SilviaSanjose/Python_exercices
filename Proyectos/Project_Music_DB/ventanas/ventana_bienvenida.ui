@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>music_window</class>
+ <widget class="QMainWindow" name="music_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Música es la Vida</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lbl_bienvenida">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>90</y>
+      <width>381</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MV Boli</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#a7115b;&quot;&gt;BIENVENIDOS A LA &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-weight:600; color:#a7115b;&quot;&gt;BASE MUSICAL&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#a7115b;&quot;&gt;SILVI_SIL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuRegistro">
+    <property name="title">
+     <string>Registro</string>
+    </property>
+    <addaction name="sub_menu_registro"/>
+   </widget>
+   <widget class="QMenu" name="menuListado">
+    <property name="title">
+     <string>Listado</string>
+    </property>
+    <addaction name="sub_meni_listado_canciones"/>
+    <addaction name="sub_menu_tabla_Canciones"/>
+   </widget>
+   <addaction name="menuRegistro"/>
+   <addaction name="menuListado"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="sub_menu_registro">
+   <property name="text">
+    <string>Nueva Canción</string>
+   </property>
+  </action>
+  <action name="sub_meni_listado_canciones">
+   <property name="text">
+    <string>Listado Canciones</string>
+   </property>
+  </action>
+  <action name="sub_menu_tabla_Canciones">
+   <property name="text">
+    <string>Tabla de Canciones</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
