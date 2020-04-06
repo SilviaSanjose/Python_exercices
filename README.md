@@ -19,7 +19,11 @@
     Condicionales
     Bucles
     Listas y Tuplas
-    Ficheros	   
+    Ficheros	
+    
+ #Proyectos
+ 
+    Project_Music_DB: registro de canciones en base de datos
 
 #Recetas PyQt5:
 
