@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>630</height>
+    <height>629</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -52,7 +52,7 @@
         <brush brushstyle="SolidPattern">
          <color alpha="255">
           <red>255</red>
-          <green>247</green>
+          <green>255</green>
           <blue>255</blue>
          </color>
         </brush>
@@ -90,7 +90,7 @@
         <brush brushstyle="SolidPattern">
          <color alpha="255">
           <red>255</red>
-          <green>247</green>
+          <green>255</green>
           <blue>255</blue>
          </color>
         </brush>
@@ -128,7 +128,7 @@
         <brush brushstyle="SolidPattern">
          <color alpha="255">
           <red>255</red>
-          <green>247</green>
+          <green>255</green>
           <blue>255</blue>
          </color>
         </brush>
@@ -252,8 +252,8 @@
    <widget class="QPushButton" name="btn_editar">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>480</y>
+      <x>20</x>
+      <y>540</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -277,8 +277,8 @@ background-color: rgb(255, 0, 127);</string>
    <widget class="QPushButton" name="btn_eliminar">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>537</y>
+      <x>150</x>
+      <y>540</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -297,6 +297,49 @@ background-color: rgb(255, 0, 127);</string>
     </property>
     <property name="text">
      <string>ELIMINAR</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>470</y>
+      <width>251</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Leelawadee UI</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>SELECCIONA ID A GESTIONAR</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spx_numero_id">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>470</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Leelawadee UI</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 127);
+color: rgb(255, 255, 255);</string>
     </property>
    </widget>
   </widget>
