@@ -4,6 +4,8 @@ from ventanas_clases.registro_cancion import Registrar_cancion
 from ventanas_clases.listado_canciones import Listado_canciones
 from ventanas_clases.tabla_canciones import Tabla_Canciones
 from ventanas_clases.bienvenidos import VentanaMusical
+from ventanas.ventana_cambio import Ui_editor_window
+
 
 
 app = QApplication(sys.argv)
@@ -16,7 +18,9 @@ my_win.setStyleSheet("QMainWindow{background-image: url(ventanas/music.jpg)}")
 #creo las interfaces de las ventanas secundarias
 win_registro_cancion = Registrar_cancion()
 win_listado_cancion = Listado_canciones()
-win_tabla_canciones = Tabla_Canciones()
+win_editar_cancion = Ui_editor_window()
+win_tabla_canciones = Tabla_Canciones(my_win, win_editar_cancion)
+
 
 win_bienvenidos = VentanaMusical(my_win, win_registro_cancion, win_listado_cancion, win_tabla_canciones)
 win_bienvenidos.setupUi(my_win)
