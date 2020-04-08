@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>registro_window</class>
- <widget class="QMainWindow" name="registro_window">
+ <class>editor_window</class>
+ <widget class="QMainWindow" name="editor_window">
   <property name="geometry">
    <rect>
     <x>0</x>

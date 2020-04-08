@@ -10,10 +10,10 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_registro_window(object):
-    def setupUi(self, registro_window):
-        registro_window.setObjectName("registro_window")
-        registro_window.resize(800, 630)
+class Ui_editor_window(object):
+    def setupUi(self, editor_window):
+        editor_window.setObjectName("editor_window")
+        editor_window.resize(800, 630)
         palette = QtGui.QPalette()
         brush = QtGui.QBrush(QtGui.QColor(0, 0, 0))
         brush.setStyle(QtCore.Qt.SolidPattern)
@@ -159,10 +159,10 @@ class Ui_registro_window(object):
         brush = QtGui.QBrush(QtGui.QColor(0, 0, 0, 128))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.PlaceholderText, brush)
-        registro_window.setPalette(palette)
-        registro_window.setLayoutDirection(QtCore.Qt.LeftToRight)
-        registro_window.setStyleSheet("")
-        self.centralwidget = QtWidgets.QWidget(registro_window)
+        editor_window.setPalette(palette)
+        editor_window.setLayoutDirection(QtCore.Qt.LeftToRight)
+        editor_window.setStyleSheet("")
+        self.centralwidget = QtWidgets.QWidget(editor_window)
         palette = QtGui.QPalette()
         gradient = QtGui.QConicalGradient(0.5, 0.5, 0.0)
         gradient.setSpread(QtGui.QGradient.PadSpread)
@@ -427,17 +427,17 @@ class Ui_registro_window(object):
         self.txt_estilo.setStyleSheet("background-color: rgb(255, 255, 255);")
         self.txt_estilo.setObjectName("txt_estilo")
         self.fly_datos_registro.setWidget(5, QtWidgets.QFormLayout.FieldRole, self.txt_estilo)
-        registro_window.setCentralWidget(self.centralwidget)
+        editor_window.setCentralWidget(self.centralwidget)
 
-        self.retranslateUi(registro_window)
-        QtCore.QMetaObject.connectSlotsByName(registro_window)
+        self.retranslateUi(editor_window)
+        QtCore.QMetaObject.connectSlotsByName(editor_window)
 
-    def retranslateUi(self, registro_window):
+    def retranslateUi(self, editor_window):
         _translate = QtCore.QCoreApplication.translate
-        registro_window.setWindowTitle(_translate("registro_window", "Registro de Canciones"))
-        self.lbl_nueva_cancion.setText(_translate("registro_window", "<html><head/><body><p><span style=\" font-weight:600; color:#a7115b;\">ACTUALIZAR CANCIÓN</span></p></body></html>"))
-        self.lbl_titulo.setText(_translate("registro_window", "Título:"))
-        self.lbl_artista.setText(_translate("registro_window", "Artista:"))
-        self.lbl_album.setText(_translate("registro_window", "Album:"))
-        self.lbl_anio.setText(_translate("registro_window", "Año:"))
-        self.lbl_estilo.setText(_translate("registro_window", "Estilo:"))
+        editor_window.setWindowTitle(_translate("editor_window", "Registro de Canciones"))
+        self.lbl_nueva_cancion.setText(_translate("editor_window", "<html><head/><body><p><span style=\" font-weight:600; color:#a7115b;\">ACTUALIZAR CANCIÓN</span></p></body></html>"))
+        self.lbl_titulo.setText(_translate("editor_window", "Título:"))
+        self.lbl_artista.setText(_translate("editor_window", "Artista:"))
+        self.lbl_album.setText(_translate("editor_window", "Album:"))
+        self.lbl_anio.setText(_translate("editor_window", "Año:"))
+        self.lbl_estilo.setText(_translate("editor_window", "Estilo:"))
