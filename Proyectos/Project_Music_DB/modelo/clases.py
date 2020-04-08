@@ -6,6 +6,6 @@ class Cancion():
         self.album = album
         self.anio = anio
         self.estilo = estilo
-        self.id = 0
+        self.id = id
     
     
