@@ -11,14 +11,14 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Música es la Vida</string>
+   <string>Música es Vida</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="lbl_bienvenida">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>90</y>
+      <x>50</x>
+      <y>70</y>
       <width>381</width>
       <height>161</height>
      </rect>
@@ -33,6 +33,47 @@
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#a7115b;&quot;&gt;BIENVENIDOS A LA &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-weight:600; color:#a7115b;&quot;&gt;BASE MUSICAL&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; color:#a7115b;&quot;&gt;SILVI_SIL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="lcdNumber">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>40</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MV Boli</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+color: rgb(167, 17, 91);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txt_fecha">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>10</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MV Boli</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(167, 17, 91);</string>
+    </property>
+    <property name="text">
+     <string>2005-05-20</string>
     </property>
    </widget>
   </widget>
@@ -58,8 +99,14 @@
     <addaction name="sub_meni_listado_canciones"/>
     <addaction name="sub_menu_tabla_Canciones"/>
    </widget>
+   <widget class="QMenu" name="sub_menu_inicio">
+    <property name="title">
+     <string>Inicio</string>
+    </property>
+   </widget>
    <addaction name="menuRegistro"/>
    <addaction name="menuListado"/>
+   <addaction name="sub_menu_inicio"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="sub_menu_registro">
@@ -75,6 +122,11 @@
   <action name="sub_menu_tabla_Canciones">
    <property name="text">
     <string>Tabla de Canciones</string>
+   </property>
+  </action>
+  <action name="actionVolver_Home">
+   <property name="text">
+    <string>Volver Home</string>
    </property>
   </action>
  </widget>

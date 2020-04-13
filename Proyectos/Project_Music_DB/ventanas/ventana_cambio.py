@@ -161,7 +161,6 @@ class Ui_editor_window(object):
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.PlaceholderText, brush)
         editor_window.setPalette(palette)
         editor_window.setLayoutDirection(QtCore.Qt.LeftToRight)
-        editor_window.setStyleSheet("")
         self.centralwidget = QtWidgets.QWidget(editor_window)
         palette = QtGui.QPalette()
         gradient = QtGui.QConicalGradient(0.5, 0.5, 0.0)
