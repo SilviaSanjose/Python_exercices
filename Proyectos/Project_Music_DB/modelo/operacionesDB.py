@@ -52,7 +52,6 @@ def guardar_cambios_cancion_db(cancion_editada):
     my_db = conectar()
     cursor = my_db.cursor()
     val = (cancion_editada.titulo, cancion_editada.artista, cancion_editada.album, cancion_editada.anio, cancion_editada.estilo, cancion_editada.id)
-    print(val)
     cursor.execute(sql,val)
     my_db.commit()
     my_db.disconnect()
