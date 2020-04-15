@@ -465,8 +465,8 @@
    <widget class="QLabel" name="lbl_nueva_cancion">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>40</y>
+      <x>10</x>
+      <y>10</y>
       <width>361</width>
       <height>51</height>
      </rect>
@@ -484,8 +484,8 @@
    <widget class="QPushButton" name="btn_save">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>470</y>
+      <x>50</x>
+      <y>490</y>
       <width>51</width>
       <height>51</height>
      </rect>
@@ -516,10 +516,10 @@
    <widget class="QWidget" name="formLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>140</y>
-      <width>641</width>
-      <height>331</height>
+      <x>50</x>
+      <y>70</y>
+      <width>541</width>
+      <height>378</height>
      </rect>
     </property>
     <layout class="QFormLayout" name="fly_datos_registro">
@@ -715,7 +715,7 @@
       </widget>
      </item>
      <item row="4" column="1">
-      <widget class="QLineEdit" name="txt_anio">
+      <widget class="QComboBox" name="comboBox">
        <property name="font">
         <font>
          <family>MV Boli</family>
@@ -725,6 +725,119 @@
        <property name="styleSheet">
         <string notr="true">background-color: rgb(255, 255, 255);</string>
        </property>
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1990</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1991</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1992</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1993</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1994</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1995</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1996</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1997</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1998</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>1999</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2000</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2001</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2002</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2003</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2004</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2005</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2006</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2007</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2008</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2009</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2010</string>
+        </property>
+       </item>
       </widget>
      </item>
      <item row="5" column="0">
@@ -844,7 +957,58 @@
        </property>
       </widget>
      </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="lbl_estilo_2">
+       <property name="font">
+        <font>
+         <family>MV Boli</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Imagen:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="btn_seleccion_img">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>MV Boli</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Seleccionar Imagen</string>
+       </property>
+      </widget>
+     </item>
     </layout>
+   </widget>
+   <widget class="QLabel" name="lbl_img">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>420</y>
+      <width>181</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
    </widget>
   </widget>
  </widget>

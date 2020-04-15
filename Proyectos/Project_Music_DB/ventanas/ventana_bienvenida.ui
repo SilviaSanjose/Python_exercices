@@ -104,9 +104,16 @@ color: rgb(167, 17, 91);</string>
      <string>Inicio</string>
     </property>
    </widget>
+   <widget class="QMenu" name="menuUsuarios">
+    <property name="title">
+     <string>Usuarios</string>
+    </property>
+    <addaction name="sub_menu_registro_usuario"/>
+   </widget>
+   <addaction name="sub_menu_inicio"/>
    <addaction name="menuRegistro"/>
    <addaction name="menuListado"/>
-   <addaction name="sub_menu_inicio"/>
+   <addaction name="menuUsuarios"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="sub_menu_registro">
@@ -127,6 +134,11 @@ color: rgb(167, 17, 91);</string>
   <action name="actionVolver_Home">
    <property name="text">
     <string>Volver Home</string>
+   </property>
+  </action>
+  <action name="sub_menu_registro_usuario">
+   <property name="text">
+    <string>Registro Usuario</string>
    </property>
   </action>
  </widget>
