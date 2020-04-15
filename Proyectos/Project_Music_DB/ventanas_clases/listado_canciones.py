@@ -10,11 +10,9 @@ class Listado_canciones(Ui_list_canciones):
         self.my_win = my_win
         global canciones
         self.lstw_canciones.clear()
+        
+        #Volcar información en listWidget
         canciones = listar_canciones_lista()
-#         text = ""
-#         for c in canciones:
-#             text = str(c[0]) + "   " + str(c[1]) + "  Artista: " + str(c[2]) + "  Album/Año: " + str(c[3]) + "/" + str(c[4]) + " >>> " + str(c[5]) + "\n"
-#             self.lstw_canciones.addItem(text)
         text = ""
         for c in canciones:
             text = "- " + str(c[1]) + "  >>> Artista: " + str(c[2]) + "\n"
