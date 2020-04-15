@@ -16,7 +16,9 @@ def registro_canciones_db(cancion):
     val = (cancion.titulo, cancion.artista, cancion.album, cancion.anio, cancion.estilo)
     cursor.execute(sql, val)
     my_db.commit()
+    id_cancion = cursor.lastrowid   #guarda el id del último registro
     my_db.disconnect()
+    return id_cancion
     
 def listar_canciones_lista():
     sql = constantes.SQL_LIST_SONGS
@@ -56,3 +58,33 @@ def guardar_cambios_cancion_db(cancion_editada):
     my_db.commit()
     my_db.disconnect()
 
+#Operación registro en tabla de usuarios
+def registro_usuario_db(usuario):
+    sql = constantes.SQL_INSERT_USER
+    my_db = conectar()
+    cursor = my_db.cursor()
+    val = (usuario.usuario, usuario.email, usuario.newsletter, usuario.eventos)
+    cursor.execute(sql, val)
+    my_db.commit()
+    my_db.disconnect()
+
+def mostrar_usuarios():
+    sql = constantes.SQL_LIST_USER
+    my_db = conectar()
+    cursor = my_db.cursor()
+    cursor.execute(sql)
+    res_user = cursor.fetchall()
+    my_db.disconnect()
+    return res_user
+
+def buscar_usuario(user_name):
+    sql = constantes.SQL_OBTENER_USER
+    my_db = conectar()
+    cursor = my_db.cursor()
+    us = (user_name,)
+    cursor.execute(sql,us)
+    res_user = cursor.fetchone()
+    my_db.disconnect()
+    return res_user
+    
+  

@@ -8,4 +8,11 @@ class Cancion():
         self.estilo = estilo
         self.id = id
     
-    
+class Usuario():
+    def __init__(self):
+        self.usuario = ""
+        self.email = ""
+        self.newsletter = "No"
+        self.eventos = ""
+       
+        
