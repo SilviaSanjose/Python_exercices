@@ -12,6 +12,7 @@ class Registrar_cancion(Ui_registro_window):
     
     def setupUi(self, my_win):
         super().setupUi(my_win)
+        self.my_win = my_win
       
         self.btn_save.clicked.connect(self.incluir_cancion)
         self.btn_seleccion_img.clicked.connect(self.seleccionar_imagen)
