@@ -19,6 +19,7 @@
     Condicionales
     Bucles
     Listas y Tuplas
+    Diccionarios
     Ficheros	
     
  #Proyectos
