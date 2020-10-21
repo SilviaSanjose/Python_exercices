@@ -17,8 +17,8 @@ print('''1.Almacena las asignaturas de un curso en una lista y la muestre por pa
 10.Almacena en una lista los siguientes precios, 50, 75, 46, 22, 80, 65, 8, y muestra el menor y 
     el mayor de los precios.
 11.Almacena los vectores (1,2,3) y (-1,0,2) en dos listas y muestre por pantalla su producto escalar.
-12.PENDIENTE:Almacenar dos matrices en una lista y mostrar su producto.
-13.PENDIENTE:
+12.Almacenar dos matrices en una lista y mostrar su producto.
+13.Pregunte por una muestra de números, separados por comas, los guarde en una lista y muestre  su media y desviación típica.
 ''')
 a = int(input("¿Qué ejercicio quieres ver? "))
 
@@ -46,7 +46,6 @@ elif a == 11:
     listasYtuplas.funciones.ejercicio11()
 elif a == 12:
     listasYtuplas.funciones.ejercicio12()
-elif a == 13:
-    listasYtuplas.funciones.ejercicio13()   
+ 
     
 

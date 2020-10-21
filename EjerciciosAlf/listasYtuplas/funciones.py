@@ -1,5 +1,6 @@
 #http://aprendeconalf.es/python/ejercicios/listas-tuplas.html
 
+
 def ejercicio1():
     asig = ["Matemáticas", "Física", "Química", "Historia" , "Lengua"]
     print(asig)
@@ -88,9 +89,24 @@ def ejercicio11():
         i+=1
     print(producto_escalar)
 
-#def ejercicio12():
+def ejercicio12():
+    a = [[1,2,3],[4,5,6]]
+    b = [[-1,0],[0,1],[1,1]]
+    
+    res = [[0,0],[0,0]]
+    
+    for i in range(len(a)):   #i valdra 1 y 2
+        for j in range(len(b[0])):   #j valdra 1 y 2
+            for k in range(len(b)):  #k valdra 1,2 y 3
+                res[i][j] += a[i][k] * b[k][j]
+    for i in range(len(res)):
+        res[i] = list(res[i])
+    res = list(res)
+    for i in range(len(res)):
+        print(res[i])
 
-# def ejercicio13():
+#end ejercicio12   
+
 
 
 
